@@ -1,0 +1,51 @@
+{
+  "name": "sendgrid",
+  "owner": {
+    "name": "Sendgrid"
+  },
+  "description": "Claude Code marketplace federating every @amlplugins/sendgrid-* plugin under a single marketplace source.",
+  "plugins": [
+    {
+      "name": "sendgrid-domain-authentication",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/sendgrid-domain-authentication.git"
+      }
+    },
+    {
+      "name": "sendgrid-event-webhook",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/sendgrid-event-webhook.git"
+      }
+    },
+    {
+      "name": "sendgrid-inbound-parse",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/sendgrid-inbound-parse.git"
+      }
+    },
+    {
+      "name": "sendgrid-mail",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/sendgrid-mail.git"
+      }
+    },
+    {
+      "name": "sendgrid-marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/sendgrid-marketing.git"
+      }
+    },
+    {
+      "name": "sendgrid-suppression",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/sendgrid-suppression.git"
+      }
+    }
+  ]
+}
